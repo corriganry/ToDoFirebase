@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "664610535318",
+    "firebase_url": "https://course-rating-4b316-default-rtdb.firebaseio.com",
+    "project_id": "course-rating-4b316",
+    "storage_bucket": "course-rating-4b316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664610535318:android:ebeec4371f5836c92d4fb7",
+        "android_client_info": {
+          "package_name": "edu.lewisu.cs.example.courserating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664610535318-f8hr8u1j8n02qb8f6875c2lcouv2k7s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6p5nxoCmFHDCwYLI-qK79HFecjhBZQkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664610535318-f8hr8u1j8n02qb8f6875c2lcouv2k7s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664610535318:android:87c9aaf16e0c52122d4fb7",
+        "android_client_info": {
+          "package_name": "edu.lewisu.cs.example.todofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664610535318-f8hr8u1j8n02qb8f6875c2lcouv2k7s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6p5nxoCmFHDCwYLI-qK79HFecjhBZQkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664610535318-f8hr8u1j8n02qb8f6875c2lcouv2k7s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
