@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements ToDoListAdapter.T
         if(user != null) {
             mUserId = user.getUid();
         }
+        setAdapter();
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -70,8 +71,7 @@ public class MainActivity extends AppCompatActivity implements ToDoListAdapter.T
                     mUserId = user.getUid();
                 }else{
                     startActivityForResult(
-                            AuthUI.getInstance()
-                            .createSignInIntentBuilder()
+                            AuthUI.getInstance().createSignInIntentBuilder()
                             .setIsSmartLockEnabled(false)
                             .setTheme(R.style.Theme_ToDoFirebase)
                             .setAvailableProviders(Arrays.asList(
